@@ -1,6 +1,6 @@
 <h1>How to Identify a Phishing Email</h1>
 
-<img src="https://github.com/yelsanity/Phishin-Email/assets/142726793/9c81fc0d-1f53-4e6b-95cd-f79f1134e89b" height="50%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/yelsanity/Phishing-Email/assets/142726793/9c81fc0d-1f53-4e6b-95cd-f79f1134e89b" height="50%" width="60%" alt="Disk Sanitization Steps"/>
 
 
 
