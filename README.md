@@ -36,54 +36,63 @@ Upon opening the email we can immediately notice that sender's E-mail address an
 When you encounter E-mails like this beware and avoid immediately clicking buttons or links attached on it.We need to inspect the header for more info about this E-mail
 <br />
 <br />
-Inspecting the header: <br/>
 <br />
-Go to file menu
+INSPECTING THE HEADER<br/>
+<br />
+<br />
+Go to file menu:
 <br />
 <img src="https://github.com/yelsanity/HowtoreadWiresharklogs/assets/142726793/9464a375-722e-4f77-88df-44a33c7e4151" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Click properties:  <br/>
+<br />
+Click properties: <br/>
 <img src="https://github.com/yelsanity/HowtoreadWiresharklogs/assets/142726793/2f634af0-b5f1-4f58-8feb-424f9c4034be" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<br />
 <br />
 <br />
 Internet Headers:  <br/>
 <img src="https://github.com/yelsanity/HowtoreadWiresharklogs/assets/142726793/7c843d5a-1e7a-4ed7-9457-656e592a1de2" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+<br />
 Analyze the header to determine the return path:  <br/>
 <img src="https://github.com/yelsanity/HowtoreadWiresharklogs/assets/142726793/1f15b15a-b4d5-40ee-9df6-8d6800b65f27" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 <br />
-As you have observe on the header section  we dont spot a single paypal domain reference in the header section and thats susupicous as the message is about your paypal account
+As you have observe on the header section  we dont spot a single paypal domain reference in the header section<br />
+thats suspicous already as the message is about your paypal account
 <br />
 <br />
-Determine the domain name of the url in this email:  <br/>
- <br /> 
+<br />
+DETERMINING THE DOMAIN NAME IN THIS E-MAIL:  <br/>
+<br /> 
  Let'hover above the button to see the url where it will redirect us
 <img src="https://github.com/yelsanity/HowtoreadWiresharklogs/assets/142726793/3fd81111-3d99-4d3a-93ae-44f94c1d9856" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
-Lets check the domain using Virust Total:  <br/>
+Lets check the domain using Virust Total:  
+<br/>
 <img src="https://github.com/yelsanity/HowtoreadWiresharklogs/assets/142726793/822a84db-9568-49a7-96e2-10beb2f9c499" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 <br />
+No threat is detected here, but if we double check the URL there has a subdomain <br/>
 <br />
-no threat is detected here, but if we diuble check the URL there has a subdomain <br/>
-now lets include the subdomain andrun it again
 <br />
-<img src="https://github.com/yelsanity/HowtoreadWiresharklogs/assets/142726793/7e43110c-2106-4e03-ac91-90eb2e1a2f36" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 <br />
+Now lets include the subdomain andrun it again
+<br />
+<img src="https://github.com/yelsanity/HowtoreadWiresharklogs/assets/142726793/7e43110c-2106-4e03-ac91-90eb2e1a2f36" height="60%" width="60%" alt="Disk Sanitization Steps"/><br />
 Now we have a ping of multiple detection
 <br />
 <br />
-we can also observe the community reviews <br />
+<br />
+We can also observe the community reviews <br />
 <img src="https://github.com/yelsanity/HowtoreadWiresharklogs/assets/142726793/0c43866e-3faf-485e-b438-c92db8faabbb" height="60%" width="60%" alt="Disk Sanitization Steps"/> <br />
+Majority flagged it as suspicious
 <br />
-majority flagged it as suspicious
 <br />
- <br />
  <h2>Conclusion </h2>
-</p>
+</p> After we have Identified all our objectives we can therefore conclude that this is indeed a Phishing E-mail.The return path for the E-mail is not connected to any Paypal domain references,the URL domain is legitimate but the link of the CTA button redirect us to a subdomain that when we run through Virus Total, it is flagged as a Phishing E-mail.
 
 <!--
  ```diff
