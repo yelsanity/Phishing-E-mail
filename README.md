@@ -1,4 +1,4 @@
-<h1>How to Identify a Phishing Email</h1>
+# How to Identify a Phishing Email
 
 <img src="https://github.com/yelsanity/Phishing-E-mail/assets/142726793/df473391-5539-4b0c-8f01-693c1c924d7f" height="50%" width="60%" alt="Disk Sanitization Steps"/>
 
